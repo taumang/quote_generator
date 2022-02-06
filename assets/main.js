@@ -2,10 +2,6 @@
 const dt = new Date();
 document.getElementById("time_").innerHTML = (("0"+dt.getDate()).slice(-2)) +"."+ (("0"+(dt.getMonth()+1)).slice(-2)) +"."+ (dt.getFullYear());
 
-// var time = today.getHours()+ ':' + today.getMinutes()+ ':' + today.getSeconds()
-// document.getElementById('time_').innerHTML = time
-
-
 //Now generating the stoic quotes, API comes from this webiste: https://stoicquotesapi.com
 const displayQuote = document.querySelector(".quote");
 const dipslayAuthor = docment.querySelector(".author");

@@ -84,13 +84,7 @@ body{
     right: 0;
 }
 
-.the_greeting1{
-    animation: fadeIn linear 4s;
-    -webkit-animation: fadeIn linear 4s;
-    -moz-animation: fadeIn linear 4s;
-    -o-animation: fadeIn linear 4s;
-    -ms-animation: fadeIn linear 4s;
-}
+
 
 @keyframes fadeIn {
     0%{opacity: 0;}
