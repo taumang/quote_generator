@@ -7,7 +7,7 @@
     font-family: 'Open Sans', sans-serif;
 }
 body{
-    background: linear-gradient(90deg, rgb(146, 62, 62) 10%, rgba(218, 163, 13, 0.795));
+    background: linear-gradient(45deg, rgb(146, 62, 62) 2%, rgba(218, 163, 13, 0.795));
     display: flex;
     align-items: center;
     justify-content: center;
