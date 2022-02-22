@@ -8,23 +8,23 @@ document.getElementById("time_").innerHTML = (("0"+dt.getDate()).slice(-2)) +"."
 
 //          var quotes = [
 
-//             "Give me by all means the shorter and nobler life, instead of one that is longer but of less account!", 
+//             "Give me by all means the shorter and nobler life, instead of one that is longer but of less account!",
 //             "A ship should not ride on a single anchor, nor life on a single hope.",
-//             "Do not try to seem wise.", "Know you not that a good person does nothing for appearance sake, but for the sake of having done right?", 
-//             "Know, first, who you are, and then adorn yourself accordingly.", 
-//             "If evil be said of thee, and if it be true, correct thyself; if it be a lie, laugh at it.", 
-//             "None are free who are not master of themselves.", 
-//             "There is only one way to happiness and that is to cease worrying about things which are beyond the power or our will.", 
-//             "We are worried by real problems so much as by our imagined anxieties about real problems.", 
-//             "If you want to improve, be content to be thought foolish and stupid.", 
-//             "The key is to keep company only with people who uplift you, whose presence calls forth your best.", 
-//             "It's not what happens to you, but how you react to it that matters.", 
-//             "Anyone capable of angering you becomes your master; they can anger you only when you permit yourself to be disturbed by them.", 
-//             "Those who laughs at themselves never run out of things to laugh at.", 
-//             "All religions must be tolerated... for everyone must get to heaven in his own way.", 
-//             "Circumstances don't make the person, they only reveal the person to oneself.", 
-//             "Seek not the good in external things; seek it in yourselves.", "You are a little soul carrying around a corpse.", 
-//             "Only the educated are free.", "Wealth consists not in having great possessions, but in having few wants.", 
+//             "Do not try to seem wise.", "Know you not that a good person does nothing for appearance sake, but for the sake of having done right?",
+//             "Know, first, who you are, and then adorn yourself accordingly.",
+//             "If evil be said of thee, and if it be true, correct thyself; if it be a lie, laugh at it.",
+//             "None are free who are not master of themselves.",
+//             "There is only one way to happiness and that is to cease worrying about things which are beyond the power or our will.",
+//             "We are worried by real problems so much as by our imagined anxieties about real problems.",
+//             "If you want to improve, be content to be thought foolish and stupid.",
+//             "The key is to keep company only with people who uplift you, whose presence calls forth your best.",
+//             "It's not what happens to you, but how you react to it that matters.",
+//             "Anyone capable of angering you becomes your master; they can anger you only when you permit yourself to be disturbed by them.",
+//             "Those who laughs at themselves never run out of things to laugh at.",
+//             "All religions must be tolerated... for everyone must get to heaven in his own way.",
+//             "Circumstances don't make the person, they only reveal the person to oneself.",
+//             "Seek not the good in external things; seek it in yourselves.", "You are a little soul carrying around a corpse.",
+//             "Only the educated are free.", "Wealth consists not in having great possessions, but in having few wants.",
 //             "Don't explain your philosophy. Embody it.",
 //             "He who has a why to live for can beat almost any how.",
 //             "There are two wolves fight inside all of us. The one is evil, the second one is good.. Which wolf will win? The one you feed.",
@@ -32,7 +32,7 @@ document.getElementById("time_").innerHTML = (("0"+dt.getDate()).slice(-2)) +"."
 //             "You don't have to turn this into something, it doesn't have to upset you."
 //          ]
 
-//          var author = [ 
+//          var author = [
 //                         "- Epictetus",
 //                         "– Marcus Aurelius",
 //                         "– Seneca",
@@ -53,56 +53,45 @@ document.getElementById("time_").innerHTML = (("0"+dt.getDate()).slice(-2)) +"."
 //     (".btn_continue").normalize("click",function(){
 //         getQuote();
 //     })
-   
+
 
 // console.log(getQuote());
 function getQuote(){
     let quote = [
 
-        "Give me by all means the shorter and nobler life, instead of one that is longer but of less account!", 
-            "A ship should not ride on a single anchor, nor life on a single hope.",
-             "Do not try to seem wise.", "Know you not that a good person does nothing for appearance sake, but for the sake of having done right?", 
-             "Know, first, who you are, and then adorn yourself accordingly.", 
-             "If evil be said of thee, and if it be true, correct thyself; if it be a lie, laugh at it.", 
-             "None are free who are not master of themselves.", 
-             "There is only one way to happiness and that is to cease worrying about things which are beyond the power or our will.", 
-             "We are worried by real problems so much as by our imagined anxieties about real problems.", 
-             "If you want to improve, be content to be thought foolish and stupid.", 
-             "The key is to keep company only with people who uplift you, whose presence calls forth your best.", 
-             "All religions must be tolerated... for everyone must get to heaven in his own way.", 
-             "Circumstances don't make the person, they only reveal the person to oneself.", 
-             "Seek not the good in external things; seek it in yourselves.", "You are a little soul carrying around a corpse.", 
-             "Only the educated are free.", "Wealth consists not in having great possessions, but in having few wants.", 
-             "Don't explain your philosophy. Embody it.",
-             "He who has a why to live for can beat almost any how.",
-             "There are two wolves fight inside all of us. The one is evil, the second one is good.. Which wolf will win? The one you feed.",
-             "The happiness of your life depends upon the quality of your thoughts.",
-             "You don't have to turn this into something, it doesn't have to upset you."
+        "Give me by all means the shorter and nobler life, instead of one that is longer but of less account! " +"</br></br> "+ "  - Epictetus ",
+            "A ship should not ride on a single anchor, nor life on a single hope. " +"</br></br> "+ "  – Viktor Frankl",
+             "Do not try to seem wise. " +" </br></br>"+ "  – Friedrich Nietzsche", 
+             "Know you not that a good person does nothing for appearance sake, but for the sake of having done right? " +"</br></br> "+ " - Heraclitus ",
+             "Know, first, who you are, and then adorn yourself accordingly. " +"</br></br> "+ "  - Heraclitus ",
+             "If evil be said of thee, and if it be true, correct thyself; if it be a lie, laugh at it. " +"</br></br> "+ "  – Friedrich Nietzsche",
+             "None are free who are not master of themselves. " +"</br></br> "+ "  - Marcus Aurelius",
+             "There is only one way to happiness and that is to cease worrying about things which are beyond the power or our will. " +"</br></br> "+ "  – Viktor Frankl",
+             "We are worried by real problems so much as by our imagined anxieties about real problems. " +"</br></br> "+ "  - Epictetus",
+             "If you want to improve, be content to be thought foolish and stupid. " +"</br></br> "+ "  - Heraclitus ",
+             "The key is to keep company only with people who uplift you, whose presence calls forth your best. " +"</br></br> "+ "  – Cato",
+
+             "Circumstances don't make the person, they only reveal the person to oneself. " +"</br></br> "+ "  - Seneca ",
+             "Seek not the good in external things; seek it in yourselves. " +" </br></br>"+ "  – Native American Proverb", 
+             "You are a little soul carrying around a corpse. " +"</br></br> "+ "  - Epictetus ",
+             "Only the educated are free. " +"</br></br> "+ "  – Viktor Frankl", 
+             "Wealth consists not in having great possessions, but in having few wants. " +"</br></br> "+ "  - Zen proverb",
+             "Don't explain your philosophy. Embody it. " +"</br></br> "+ "  - Epictetus ",
+             "He who has a why to live for can beat almost any how. " +"</br></br> "+ "  - Marcus Aurelius",
+             "There are two wolves fight inside all of us. The one is evil, the second one is good.. Which wolf will win? The one you feed. " +"</br></br> "+ "  – Native American Proverb ",
+             "The happiness of your life depends upon the quality of your thoughts. " +"</br></br> "+ "  - Epictetus ",
+             "You don't have to turn this into something, it doesn't have to upset you. " +"</br></br> "+ "  – Friedrich Nietzsche"
 
     ]
 
-    let authors = [
 
-    "- Heraclitus ", 
-	"- Epictetus ", 
-	"- Marcus Aurelius", 
-	"- Seneca ", 
-	"- Zen proverb",
-    "- Epictetus",
-    "– Marcus Aurelius",
-    "– Cato",
-    "– Viktor Frankl",
-    "– Friedrich Nietzsche",
-    "– Native American Proverb",
 
-    ];
+    let randomNumber = Math.floor(Math.random() * quote.length);
 
-    let randomNumber = Math.floor(Math.random() * quote.length && authors.length);
-    
 
-   document.getElementById('quote').innerHTML = quote[randomNumber];
-   document.getElementById('authors').innerHTML = authors[randomNumber];
+   document.getElementById('quote').innerHTML = quote[randomNumber.toString()];
+//    document.getElementById('authors').innerHTML = authors[randomNumber.toString()];
 }
 
-console.log(getQuote())
+
 
