@@ -8,43 +8,48 @@ const getQuote = () =>{
         {
           text: "Give me by all means the shorter and nobler life, instead of one that is longer but of less account!",
           author: "Epictetus",
-          image: "epictetus.jpg"
+          image: "./img/epictetus.jpg"
         },
         {
           text: "A ship should not ride on a single anchor, nor life on a single hope.",
           author: "Viktor Frankl",
-          image: "epictetus.jpg"
-          " </br></br> - "
+          image: "./img/1 d2ELdzOn3DC_vTLJTDYq9g.jpg"
+          
         },
         {
-          text: "Give me by all means the shorter and nobler life, instead of one that is longer but of less account!",
-          author: "Epictetus",
-          image: "epictetus.jpg"
-          "Do not try to seem wise. </br></br> - Friedrich Nietzsche",
+          text: "Do not try to seem wise.",
+          author: "Friedrich Nietzsche",
+          image: "./img/8471f8a69b5b3ea5b7dc91e7bf148933.jpg"
+          
         },
         {
-          text: "Give me by all means the shorter and nobler life, instead of one that is longer but of less account!",
-          author: "Epictetus",
-          image: "epictetus.jpg"
-          "Know you not that a good person does nothing for appearance sake, but for the sake of having done right? </br></br> - Heraclitus",
+          text: "Know you not that a good person does nothing for appearance sake, but for the sake of having done right?",
+          author: "Heraclitus",
+          image: "./img/Heraclitus_0.jpg"
+          
         },
         {
-          text: "Give me by all means the shorter and nobler life, instead of one that is longer but of less account!",
-          author: "Epictetus",
-          image: "epictetus.jpg"
-          "If evil be said of thee, and if it be true, correct thyself; if it be a lie, laugh at it. </br></br> - Friedrich Nietzsche",
+          text: "If evil be said of thee, and if it be true, correct thyself; if it be a lie, laugh at it.",
+          author: "Friedrich Nietzsche",
+          image: "./img/8471f8a69b5b3ea5b7dc91e7bf148933.jpg"
         },
         {
-          text: "Give me by all means the shorter and nobler life, instead of one that is longer but of less account!",
-          author: "Epictetus",
-          image: "epictetus.jpg"
-          "None are free who are not master of themselves. </br></br> - Marcus Aurelius",
+          text: "None are free who are not master of themselves.",
+          author: "Marcus Aurelius",
+          image: "./img/marcusaureliusdailystoic-scaled.jpg"
         },
-        // ... add other quotes here
+        
       ];
 
-let randomNumber = Math.floor(Math.random() * quote.length);
-document.getElementById('quote').innerHTML = quote[randomNumber.toString()];
+
+const randomNumber = Math.floor(Math.random() * quote.length)
+const quotes = quote[randomNumber]
+
+document.getElementById('quote').innerHTML = quotes.text;
+document.getElementById('author').innerHTML = `- ${quotes.author}`
+
+const imageURL = `url(${quotes.image})`
+document.ElementById('author_image').style.backgroundImage = imageURL
 
 }
 
