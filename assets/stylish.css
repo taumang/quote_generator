@@ -1,103 +1,49 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&display=swap');
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-size:34px;
-    font-family: 'Open Sans', sans-serif;
-}
-body{
-    background: linear-gradient(45deg, rgb(146, 62, 62) 2%, rgba(218, 163, 13, 0.795));
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-}
-.main_entrance{
-   display:flex;
-   flex-direction: column;
-   align-items: center;
-   padding: 20px;
-   box-shadow: 0 2px 8px rgba(0, 0, 0.6);
-   width: 500px;
-   margin: 10px;
- 
-}
-.all_together{
-   text-align: center;
-   color: white;
-}
-.the_g2{
-    color: white;
-    
-}
-.author{
-    text-align: center;
-   color: white;
-}
-.quote{
-    text-align: center;
-   color: white;
-}
-.btn_continue{
-    display:inline-block;
-    border-radius: 4px;
-    background-color: white;
-    border: none;
-    color: black;
-    text-align: center;
-    font-size: 28px;
-    padding: 20px;
-    width:200px;
-    transition: all 0.5s;
-    cursor: pointer;
-    margin: 5px;
-}
-.btn_continue span{
-    cursor:pointer;
-    display: inline-block;
-    position: relative;
-    transition: 0.5s
-}
-.btn_continue span:after{
-    content:'\00bb';
-    position: absolute;
-    opacity: 0;
-    top: 0;
-    right: -20px;
-    transition: 0.5s;
-}
-.btn_continue:hover span{
-    padding-right:25px;
-}
-.btn_continue:hover span:after{
-    opacity: 1;
-    right: 0;
-}
-
-
-
-@keyframes fadeIn {
-    0%{opacity: 0;}
-    100%{opacity: 1;}
-}
-
-@-moz-keyframes fadeIn {
-    0%{opacity: 0;}
-    100%{opacity: 1;}
-}
-@-webkit-keyframes fadeIn {
-    0%{opacity: 0;}
-    100%{opacity: 1;}
-}
-@-o-keyframes fadeIn {
-    0%{opacity: 0;}
-    100%{opacity: 1;}
-}
-@-ms-keyframes fadeIn {
-    0%{opacity: 0;}
-    100%{opacity: 1;}
-}
-
-
-
+.the_g2 {
+            font-size: 3rem;
+            text-align: center;
+            margin-top: 3rem;
+        }
+        .main_entrance {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 3rem;
+        }
+        .all_together {
+            text-align: center;
+        }
+        .quote {
+            font-size: 2rem;
+            
+           
+        }
+        .btn_continue {
+            background-color: #da373d;
+            color: white;
+            padding: 1rem 2rem;
+            font-size: 1.5rem;
+            border: none;
+            margin-top: 2rem;
+            cursor: pointer;
+            border-radius: 200px;
+        }
+        .btn_continue:hover{
+            transform: scale(1.1);
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+            transform-origin: center top;
+        }
+        /* Define styles for mobile screens */
+        @media (max-width: 767px) {
+            .the_g2 {
+                font-size: 2rem;
+                margin-top: 2rem;
+            }
+            .quote {
+                font-size: 1.5rem;
+            }
+            .btn_continue {
+                padding: 0.8rem 1.5rem;
+                font-size: 1.2rem;
+                margin-top: 1.5rem;
+            }
+        }

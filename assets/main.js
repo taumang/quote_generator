@@ -49,7 +49,7 @@ document.getElementById('quote').innerHTML = quotes.text;
 document.getElementById('author').innerHTML = `- ${quotes.author}`
 
 const imageURL = `url(${quotes.image})`
-document.ElementById('author_image').style.backgroundImage = imageURL
+document.getElementById('author_image').style.backgroundImage = imageURL
 
 }
 
