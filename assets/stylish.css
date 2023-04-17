@@ -32,6 +32,19 @@
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
             transform-origin: center top;
         }
+
+        #author-image {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            background-size: cover;
+            background-position: center;
+            opacity: 0.5;
+          }
+          
         /* Define styles for mobile screens */
         @media (max-width: 767px) {
             .the_g2 {

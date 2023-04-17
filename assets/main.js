@@ -1,5 +1,6 @@
 //Trying to get the current time of when the app is opened by user.
 const dt = new Date();
+
 document.getElementById("time_").innerHTML = (("0"+dt.getDate()).slice(-2)) +"."+ (("0"+(dt.getMonth()+1)).slice(-2)) +"."+ (dt.getFullYear());
 
 
@@ -44,11 +45,10 @@ const getQuote = () =>{
 
 const randomNumber = Math.floor(Math.random() * quote.length)
 const quotes = quote[randomNumber]
+const imageURL = `url(${quotes.image})`
 
 document.getElementById('quote').innerHTML = quotes.text;
 document.getElementById('author').innerHTML = `- ${quotes.author}`
-
-const imageURL = `url(${quotes.image})`
 document.getElementById('author_image').style.backgroundImage = imageURL
 
 }
